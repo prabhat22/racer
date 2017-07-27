@@ -759,6 +759,17 @@ input[value="open_nav"]:checked ~ .menu-btn .line:last-child{
 {
     color:#3366CC;
 }
+@media(max-width:991px)
+{
+        .head_foot button
+{
+        background-color: #006DB7;
+    position: absolute;
+    right: 8%;
+    top:84%;
+    text-align: center;
+}
+}
 @media(max-width:767px)
 {
     .head_foot button
@@ -766,7 +777,20 @@ input[value="open_nav"]:checked ~ .menu-btn .line:last-child{
         background-color: #006DB7;
     position: absolute;
     right: 6%;
+    top:74%;
     text-align: center;
 }
 }
+@media(max-width:640px)
+{
+    .head_foot button
+{
+        background-color: #006DB7;
+    position: absolute;
+    right: 7%;
+    
+    text-align: center;
+}
+}
+
 

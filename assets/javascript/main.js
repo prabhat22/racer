@@ -1,4 +1,8 @@
  $(document).ready(function(){
+  setTimeout(function(){
+        $("#preloader").fadeOut(2000);
+        $("#container").css("overflow-y","scroll");
+    },2000);
         new WOW().init();
        var owl = $('.owl-carousel');
 owl.owlCarousel({

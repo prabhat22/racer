@@ -29,6 +29,13 @@ ul li
 {
     list-style: none;
 }
+
+container
+{
+    overflow-x: hidden;
+}
+
+
 /*preloader*/
 #preloader {
     position: fixed;
@@ -38,6 +45,7 @@ ul li
     height: 100%;
     width: 100%;
     z-index: 1000;
+    overflow: hidden;
 }
 #preloader img
 {
@@ -46,6 +54,10 @@ ul li
    vertical-align: middle;
     
 }
+
+
+
+
 
 #header
 {
@@ -86,7 +98,7 @@ ul li
     background-color: rgba(0,0,0,0.6);
     position: absolute;
     top: 58px;
-    transform: translateX(-1300px);
+    transform: translateX(-500%);
     transition: 1s;
     z-index: 100;
     width:100%;
@@ -286,6 +298,7 @@ input[value="open_nav"]:checked ~ .menu-btn .line:last-child{
     width:75%;
     background-color: white;
     border-left: 1px solid white;
+    max-height: 200px;
 }
 .logo_2:hover
 {
@@ -305,6 +318,8 @@ input[value="open_nav"]:checked ~ .menu-btn .line:last-child{
      background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    height: 600px;
+    background-size: 100% 100%;
     padding: 100px 0;
     text-align: center;
    margin-bottom: 4%;
@@ -312,9 +327,12 @@ input[value="open_nav"]:checked ~ .menu-btn .line:last-child{
 #section_3 .desc_3
 {
    
+    top:50%;
+    padding-left: 45px;
     width:100%;
    
 }
+
 #section_3 .desc_3 h4{
     color: white;
 }
@@ -343,6 +361,8 @@ input[value="open_nav"]:checked ~ .menu-btn .line:last-child{
     color: red;
     text-align: center;
     
+   
+    
 }
 #main_desc_4
 {
@@ -352,6 +372,7 @@ input[value="open_nav"]:checked ~ .menu-btn .line:last-child{
 {
     line-height: 30px;
     font-weight: 600;
+    text-align: center;
 }
 
 /*Section_5*/
@@ -389,10 +410,10 @@ input[value="open_nav"]:checked ~ .menu-btn .line:last-child{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    padding: 100px 0;
+  
     text-align: center;
     margin-bottom: 4%;
-    
+    height
 }
 .head_6 h2
 {
@@ -597,7 +618,7 @@ input[value="open_nav"]:checked ~ .menu-btn .line:last-child{
 {
     background-color: #212121;
     text-align: center;
-    margin-bottom: 10%;
+   
 }
 .head_foot h2
 {
@@ -623,6 +644,7 @@ input[value="open_nav"]:checked ~ .menu-btn .line:last-child{
         background-color: #006DB7;
     position: absolute;
     right: 8%;
+    top:82%;
     text-align: center;
 }
 .head_foot i
@@ -757,7 +779,7 @@ input[value="open_nav"]:checked ~ .menu-btn .line:last-child{
 
 #design h2
 {
-    color:#3366CC;
+    color:white;
 }
 @media(max-width:991px)
 {
@@ -792,5 +814,6 @@ input[value="open_nav"]:checked ~ .menu-btn .line:last-child{
     text-align: center;
 }
 }
+
 
 
